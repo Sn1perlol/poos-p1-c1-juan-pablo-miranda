@@ -9,9 +9,9 @@
 
 | Identificación | Información |
 |---|---|
-| Integrante 1 | COMPLETAR |
-| Integrante 2 | COMPLETAR |
-| Sección y fecha | COMPLETAR |
+| Integrante 1 | Juan Pablo Miranda |
+| Integrante 2 | Benjamin André de Jesús Espinosa |
+| Sección y fecha | D-IEC-N2-P1-C1 12/08 |
 | URL del repositorio | COMPLETAR AL FINAL |
 
 ## Propósito
