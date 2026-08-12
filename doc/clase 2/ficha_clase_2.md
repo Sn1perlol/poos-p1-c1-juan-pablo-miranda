@@ -28,17 +28,17 @@ Analizar y delimitar una funcionalidad antes de diseñar clases o escribir códi
 
 ### 1.1 Tres hechos explícitos
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. Existe un entrenador
+2. Existe una criatura salvaje
+3. El entrenado intenta capturar a la criatura salvaje
 
 ### 1.2 Tres ambigüedades convertidas en preguntas
 
 | N.º | Expresión ambigua | Pregunta que debe responder el cliente |
 |---:|---|---|
-| 1 | COMPLETAR | COMPLETAR |
-| 2 | COMPLETAR | COMPLETAR |
-| 3 | COMPLETAR | COMPLETAR |
+| 1 | escenario | Cual es la instacia maxima permitida |
+| 2 | no se especifica la criatura | Cual es la probabilidad de captura |
+| 3 | inventario | Que es una capsula |
 
 ### 1.3 Supuesto provisional
 
@@ -56,7 +56,7 @@ Fórmula orientadora:
 
 ### 2.1 Actor, necesidad y objetivo
 
-**Actor principal:** COMPLETAR  
+**Actor principal:** Entrenador 
 **Necesidad:** COMPLETAR  
 **Objetivo reescrito:** COMPLETAR
 
@@ -64,23 +64,23 @@ Fórmula orientadora:
 
 #### Entradas necesarias
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. Identificacion del entrenador
+2. Seleccion de criatura
+3. Cantidad de capsulas
 4. COMPLETAR
 
 #### Proceso observable
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. Validar la disponibilidad
+2. Instacia de inventario
+3. 
 4. COMPLETAR
 5. COMPLETAR
 6. COMPLETAR
 
 #### Salidas esperadas
 
-1. COMPLETAR
+1. Mensaje de exito o rechazo de la criatura capturada
 2. COMPLETAR
 3. COMPLETAR
 4. COMPLETAR
@@ -93,15 +93,15 @@ Una **regla** define qué comportamiento es válido. Una **restricción** limita
 
 ### 3.1 Reglas del problema
 
-1. COMPLETAR
-2. COMPLETAR
+1. Maximo de dinstancia permitida
+2. Cantidad de capsulas por criatura
 3. COMPLETAR
 4. COMPLETAR
 
 ### 3.2 Restricciones
 
-1. COMPLETAR
-2. COMPLETAR
+1. Sin GPS
+2. Pagos / microtransacciones
 3. COMPLETAR
 
 ### 3.3 Delimitación de la primera versión
@@ -137,7 +137,7 @@ Estructura sugerida:
 
 > Dado **[contexto]**, cuando **[acción]**, entonces **[resultado observable]**.
 
-**Criterio 1:** COMPLETAR  
+**Criterio 1:** Dado a que la criatura sea capturada cuando se le lanza la capsula, entonces la criatura sera agregada a la coleccion 
 **Criterio 2:** COMPLETAR
 
 ### 4.1 Intercambio con otra pareja
@@ -185,7 +185,7 @@ Primero guarden la ficha original. La IA puede detectar vacíos y formular pregu
 
 ### 6.1 Análisis del impacto
 
-**Qué cambió:** COMPLETAR  
+**Qué cambió:** Se cambia la cantidad de criaturas portables, tambien el mensaje de captura, agregando un mensaje de si quiere llevar su criatura a reserva o no. 
 **Secciones afectadas:** ENTRADA / PROCESO / SALIDA / REGLA / ALCANCE / SUPUESTO  
 **Nueva decisión:** COMPLETAR  
 **Justificación:** COMPLETAR
